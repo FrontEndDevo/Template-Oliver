@@ -1851,6 +1851,30 @@ header .container .mega-menu .links li a i{
 /* Footer */
 
 
+/* (Scroll To Top) Btn */
+.scroll-to-top{
+    color: #1cc7d0;
+    font-size: 26px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 48%;
+    /* A box shadow example from this website:- https://getcssscan.com/css-box-shadow-examples */
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 100;
+    transition: 0.4s;
+    display: none;
+}
+.scroll-to-top:hover{
+    background-color: #00112c;
+}
+
+.appear{
+    display: block;
+}
 
 
 /* Trying to fix (Responsive Design) in Phones like "IPhone X" */
